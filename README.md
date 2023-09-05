@@ -46,4 +46,12 @@ or if it's node:
 }
 ```
 
+or if it's next:
+
+```json
+{
+   "extends": "@azul-tecnologia/eslint-config/next"
+}
+```
+
 > You can also use a `.eslintrc.js` instead of JSON if you prefer.

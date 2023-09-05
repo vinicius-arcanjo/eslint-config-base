@@ -5,8 +5,6 @@ module.exports = {
     jest: true,
   },
   extends: [
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
     'standard',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
@@ -20,12 +18,10 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: [
-    'react',
     'jsx-a11y',
     '@typescript-eslint'
   ],
   rules: {
-    "react/self-closing-comp": "error",
     'prettier/prettier': ["error", {
       'printWidth': 80,
       'tabWidth': 2,
@@ -35,8 +31,6 @@ module.exports = {
       'semi': false,
       'endOfLine': 'auto',
     }],
-    'react/react-in-jsx-scope': 'off',
-    'react/prop-types': 'off',
     'jsx-a11y/alt-text': [
       'warn',
       {
@@ -58,8 +52,5 @@ module.exports = {
     'import/parsers': {
       [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
     },
-  },
-  ignorePatterns: [
-    'node_modules'
-  ]
+  }
 }
