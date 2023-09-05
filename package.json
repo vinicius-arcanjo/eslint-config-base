@@ -1,12 +1,12 @@
 {
-  "name": "@azul-tecnologia/eslint-config",
-  "version": "1.2.0",
+  "name": "@vinicius-arcanjo/eslint-config",
+  "version": "0.0.1",
   "private": false,
-  "description": "ESLint configuration used by Azul Tecnologia.",
+  "description": "ESLint configuration.",
   "main": "index.js",
   "license": "MIT",
   "repository": {
-    "url": "azul-tecnologia/eslint-config-base"
+    "url": "vinicius-arcanjo/eslint-config-base"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",
