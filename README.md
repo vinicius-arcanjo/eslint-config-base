@@ -23,7 +23,7 @@ yarn add -D eslint @vinicius-arcanjo/eslint-config
 pnpm add -D eslint @vinicius-arcanjo/eslint-config
 ```
 
-For pnpm you need to create a `.npmrc` file and add the following lines:
+For `pnpm` you need to create a `.npmrc` file and add the following lines:
 
 ```
 registry=https://registry.npmjs.org/
