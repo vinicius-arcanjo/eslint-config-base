@@ -11,7 +11,14 @@
 
 ## Setup
 
-1. Install the dependencies
+1. You need to create a `.npmrc` file and add the following lines:
+
+```
+registry=https://registry.npmjs.org/
+@vinicius-arcanjo:registry=https://npm.pkg.github.com
+```
+
+2. Install the dependencies
 ```sh
 # npm
 npm i -D eslint @vinicius-arcanjo/eslint-config
@@ -23,14 +30,7 @@ yarn add -D eslint @vinicius-arcanjo/eslint-config
 pnpm add -D eslint @vinicius-arcanjo/eslint-config
 ```
 
-For `pnpm` you need to create a `.npmrc` file and add the following lines:
-
-```
-registry=https://registry.npmjs.org/
-@vinicius-arcanjo:registry=https://npm.pkg.github.com
-```
-
-2. Create a `.eslintrc.json` file extending the config to react:
+3. Create a `.eslintrc.json` file extending the config to react:
 
 ```json
 {
