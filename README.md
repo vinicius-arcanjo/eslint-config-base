@@ -42,7 +42,7 @@ or if it's node:
 
 ```json
 {
-   "extends": "@azul-tecnologia/eslint-config/node"
+   "extends": "@vinicius-arcanjo/eslint-config/node"
 }
 ```
 
@@ -50,7 +50,7 @@ or if it's next:
 
 ```json
 {
-   "extends": "@azul-tecnologia/eslint-config/next"
+   "extends": "@vinicius-arcanjo/eslint-config/next"
 }
 ```
 
