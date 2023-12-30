@@ -2,10 +2,10 @@
 
 ## What's included?
 
-- Standard config base;
-- React plugin;
-- React Hooks plugin;
-- Prettier;
+- Standard config base
+- React plugin
+- React Hooks plugin
+- Prettier
 
 [//]: # (- JSX a11y plugin;)
 
