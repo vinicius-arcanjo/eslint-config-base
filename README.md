@@ -55,3 +55,11 @@ or if it's next:
 ```
 
 > You can also use a `.eslintrc.js` instead of JSON if you prefer.
+
+## Contributing
+
+Contributions are always welcome! If you wish to add new features or enhance the existing templates, please create a pull request to the appropriate branch.
+
+## License
+
+This project is under the [MIT License ©](https://github.com/vinicius-arcanjo/eslint-config-base/blob/main/LICENSE.md). See the `LICENSE` file in each branch for more details.
